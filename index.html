@@ -4,6 +4,24 @@
         <meta charset="utf-8"/>
         <title>lethalboy的blog</title>
         <style>
+            ul.lowl
+            {
+                list-style-type:lower-alpha;
+            }
+            ul.cir
+            {
+                list-style-type: circle;
+            }
+            ul.sqr
+            {
+                list-style-type:square;
+            }
+
+            body{
+                background-image:url("https://i.pximg.net/img-master/img/2019/02/28/17/43/23/73434279_p0_master1200.jpg");
+                background-repeat:repeat;
+                background-attachment:fixed;
+            }
             .topper
             {
                 text-shadow: rgba(102,122,100) 2px 2px 10px;
@@ -29,10 +47,18 @@
             }
             .box
             {
-                width: 200px;
                 padding:10px;
-                border:5px outset rgb(140,150,255);
+                color:white;
+                border:5px  rgb(140,150,255) outset;
+                background-color:darkorchid;
             }
+        table.tbl
+        {
+            border-collapse:separate;
+            border-spacing:5px;
+            empty-cells:show;
+            table-layout:auto;
+        }
         </style>
     </head>
     <body>
@@ -64,12 +90,40 @@
             <br/>
             <p style="text-indent: 1cm">梦想总是在不起眼的地方埋下种子</p>
             <p class="psg">love is the only thing that could not be bought with money</p>
-            <p class="box">幸福需要适时的满足现状</p>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <a class="box" href="https://www.google.com">幸福需要适时的满足现状</a>
+            <ul class="sqr">
+                <li>KD-tree</li>
+                <li>欧拉函数</li>
+                <li>莫比乌斯反演</li>
+                <li>积性函数</li>
+                <li>杜教筛</li>
+                <li>Min_25筛</li>
+                <li>洲阁筛</li>
+            </ol>
+            <br/><br/>
+            <table border="1" class="tbl">
+                <caption style="caption-side:top; color:lime">学习计划</caption>
+                <tr>
+                    <th>知识点名称</th>
+                    <th>预期学习时间</th>
+                    <th>实际学习时间</th>
+                </tr>
+                <tr>
+                    <td>KD-tree</td>
+                    <td>2019.3.3~2019.3.10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>数论-JumpMelon</td>
+                    <td>2019.3.11~2019.3.24</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>计算几何-wxy</td>
+                    <td>2019.3.25-2019.3.31</td>
+                    <td></td>
+                </tr>
+            </table>
             <br/>
             <br/>
             <br/>
